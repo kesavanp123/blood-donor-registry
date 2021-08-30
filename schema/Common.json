@@ -36,27 +36,17 @@
                 "type":"string",
                 "title":"UHID"
              },
-             "identityHolder":{
-                "$id":"#/properties/identityHolder",
-                "type":"object",
-                "title":"National Identity",
-                "properties":{
-                   "type":{
-                      "type":"string",
-                      "$comment":"Nationality",
-                      "title":"ID Type",
-                      "enum":[
-                         "Aadhar",
-                         "PAN",
-                         "License"
-                      ]
-                   },
-                   "value":{
-                      "type":"string",
-                      "$comment":"Nationality",
-                      "title":"ID Value"
-                   }
-                }
+             "identityType": {
+               "$id": "#/properties/identityType",
+               "type": "string",
+               "$comment": "Nationality",
+               "title": "ID Type"
+             },
+             "identityValue": {
+               "$id": "#/properties/identityValue",
+               "type": "string",
+               "$comment": "Nationality",
+               "title": "ID Value"
              }
           }
        },
