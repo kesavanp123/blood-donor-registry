@@ -48,6 +48,8 @@ spec:
               value: io.opensaber.registry.service.ElasticSearchService
             - name: elastic_search_connection_url
               value: ndear-es-elasticsearch-coordinating-only.default.svc.cluster.local:9200
+            - name: internal_entities
+              value: Donor, BloodCollectionCenter
             - name: filestorage_connection_url
               value: http://minio.default.svc.cluster.local:9000
             - name: filestorage_access_key
